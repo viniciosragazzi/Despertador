@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #0291f0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+body .despertador {
+  width: 100%;
+  max-width: 40rem;
+  min-height: 25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .despertador .despertador-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5rem;
+}
+body .despertador .despertador-content .despertador-content-title {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #0291f0;
+}
+body .despertador .despertador-content .despertador-content-title img {
+  width: 12.8rem;
+}
+body .despertador .despertador-content .despertador-content-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+body .despertador .despertador-content .despertador-content-form select {
+  width: 10rem;
+  height: 4.8rem;
+  border: 1px solid #0291f0;
+  border-radius: 0.8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  color: #0291f0;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 1rem;
+}
+body .despertador .despertador-content .despertador-content-form select option {
+  color: #0291f0;
+}
+body .despertador .despertador-content button {
+  width: 100%;
+  max-width: 80%;
+  height: 3.8rem;
+  border: 1px solid #0291f0;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #0291f0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+body .despertador .despertador-content button:hover {
+  background-color: #ffffff;
+  color: #0291f0;
+}/*# sourceMappingURL=style.css.map */
